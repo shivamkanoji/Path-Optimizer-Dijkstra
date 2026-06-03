@@ -48,3 +48,13 @@ python server.py
 
 Computer Science Engineering Student
 Web Development & DSA Enthusiast
+
+## Screenshots
+
+### Home Page
+
+![Home Page](image1.png)
+
+### Route Calculation
+
+![Route Calculation](image2.png)
