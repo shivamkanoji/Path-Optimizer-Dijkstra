@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b,
+    #111827
+  );
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mainContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+}
+
+.projectHeader {
+  font-family: 'Kanit', sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.formInput {
+  width: 100%;
+  max-width: 500px;
+}
+
+.formGroup {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sourceForm,
+.destinationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sourceInput,
+.destinationInput {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.sourceInput:focus,
+.destinationInput:focus {
+  box-shadow: 0 0 10px #3b82f6;
+}
+
+.formButton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formButton:hover {
+  transform: translateY(-2px);
+  background: #1d4ed8;
+}
+
+.projectDisplay {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.errorMsg {
+  color: #ef4444;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Maps,
+.satMap,
+.outMap {
+  display: none;
+}

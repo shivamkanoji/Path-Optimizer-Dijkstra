@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.pathAnswer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+    max-width: 700px;
+    margin: 20px auto;
+    font-family: 'Abel', sans-serif;
+    background-color: #222;
+    color: #fff;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.source,
+.destination,
+.totalDistance,
+.pathDetails {
+    font-size: 1.2rem;
+}
+
+.labelText {
+    font-weight: 700;
+    color: #f0a500;
+}
+
+.sourceData,
+.destinationData {
+    color: #4da6ff;
+    font-weight: 600;
+}
+
+.pathData {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 1.8;
+    word-break: break-word;
+}
+
+.distanceData {
+    color: #22c55e;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.successMsg {
+    color: #22c55e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
