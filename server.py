@@ -13,11 +13,8 @@ print("Imported all modules")
 app = Flask(__name__, static_folder='../frontend/build', static_url_path='')
 print("Flask app initialized")
 
-cors = CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}})
 print("CORS setup done")
-
-cors = CORS(app, origins=['http://localhost:3000'])
-print("CORS origins set")
 
 @app.route('/')
 def hello_world():
@@ -146,6 +143,9 @@ def shortestPath(a, b):
     print("Returning JSON response")
     return jsonify(result)
 
+import os
+
 if __name__ == "__main__":
     print("Starting Flask server...")
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
