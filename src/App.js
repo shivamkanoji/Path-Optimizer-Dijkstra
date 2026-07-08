@@ -31,8 +31,8 @@ const App = () => {
 
     try {
       const response = await fetch(
-        `https://path-optimizer-dijkstra.onrender.com/shortd/${a}/${b}`
-      );
+  `https://path-optimizer-dijkstra-syk4.onrender.com/shortd/${a}/${b}`
+   );
 
       if (!response.ok) {
         throw new Error(`HTTP Error: ${response.status}`);
