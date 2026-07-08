@@ -67,7 +67,7 @@ PathOptimizer/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/Sunil-705/Path-Optimizer-Dijkstra.git
+git clone https://github.com/shivamkanoji/Path-Optimizer-Dijkstra.git
 cd Path-Optimizer-Dijkstra
 ```
 
