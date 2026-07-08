@@ -3,11 +3,9 @@
 A full-stack web application that calculates the shortest path between two nodes using **Dijkstra's Algorithm**. The application provides an interactive interface where users can enter source and destination nodes and instantly get the optimal route along with the total distance.
 
 ## 🌐 Live Demo
+**Frontend:** https://path-optimizer-dijkstra-gules.vercel.app
 
-**Frontend:** https://path-optimizer-dijkstra.vercel.app
-
-**Backend API:** https://path-optimizer-dijkstra.onrender.com
-
+**Backend API:** https://path-optimizer-dijkstra-syk4.onrender.com
 ---
 
 ## ✨ Features
@@ -120,16 +118,15 @@ python server.py
 * Advanced Pathfinding Algorithms (A*, Bellman-Ford)
 
 ---
-
 ## 👨‍💻 Author
 
-**Sunil Kumar**
+**Shivam Kumar**
 
-Computer Science Engineering Student
+Computer Science Engineering Student at NIT Bhopal
 
 Focused on Web Development, Data Structures & Algorithms, and Full-Stack Development.
 
-GitHub: https://github.com/Sunil-705
+GitHub: https://github.com/shivamkanoji
 
 ---
 
